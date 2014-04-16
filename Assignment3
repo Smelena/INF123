@@ -14,7 +14,7 @@ Q4-  I changed the create_borders subroutine by creating two new boarders inside
      pygame.Rect(50,50,2,50)
      pygame.Rect(300,150,2,75)
       
-Q5-  Im process_input I added a new key event for K_SPACE and changed the speed of direction to (0,0) to stop the box whenever the boolean
+Q5-  In process_input I added a new key event for K_SPACE and changed the speed of direction to (0,0) to stop the box whenever the boolean
      'paused' is false, if it is true then speed is restored and the game continues. I also had to add in 'paused' to the 
      parameters for process_event and also return the value of pause(True/false).
 
