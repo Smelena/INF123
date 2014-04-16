@@ -1,0 +1,21 @@
+##Assignment 3
+##Steven Melena
+
+Q1- 	I changed the draw_Everything subroutine.
+      To modify each color I jut changed the values of the colors to make new colors.
+      
+Q2-  I modified process_input by changed the K_UP, K_DOWN, K_LEFT, and K_RIGHT keys 
+     to K_w, K_s, K_a, and K_d. I also had to import the new keys.
+    
+Q3-  A: I modified process_input by changing the 'direction = (0,1)' and changing the 1 values to 2 to double the speed.
+     B: It's a good idea because it seperates calls to pygame from the main game loop
+    
+Q4-  I changed the create_borders subroutine by creating two new boarders inside of it that act as the barriers.
+     pygame.Rect(50,50,2,50)
+     pygame.Rect(300,150,2,75)
+      
+Q5-  Im process_input I added a new key event for K_SPACE and changed the speed of direction to (0,0) to stop the box whenever the boolean
+     'paused' is false, if it is true then speed is restored and the game continues. I also had to add in 'paused' to the 
+     parameters for process_event and also return the value of pause(True/false).
+
+    
