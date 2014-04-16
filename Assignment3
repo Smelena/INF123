@@ -2,7 +2,7 @@
 ##Steven Melena
 
 Q1- 	I changed the draw_Everything subroutine.
-      To modify each color I jut changed the values of the colors to make new colors.
+      To modify each color I just changed the values of the colors to make new colors.
       
 Q2-  I modified process_input by changed the K_UP, K_DOWN, K_LEFT, and K_RIGHT keys 
      to K_w, K_s, K_a, and K_d. I also had to import the new keys.
