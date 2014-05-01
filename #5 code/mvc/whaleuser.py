@@ -1,6 +1,7 @@
 from random import randint
 from time import sleep
 import common
+import whalebot
 
 
 ################### MODEL #############################
@@ -62,11 +63,13 @@ class View():
 ################### LOOP #############################
 
 model = common.Model()
-c = Controller(model)
+c = whalebot.Controller(model)
 v = View(model)
+vw = whalebot.View(model)
 
 while not model.game_over:
     sleep(0.02)
     c.poll()
     model.update()
     v.display()
+    vw.display()
